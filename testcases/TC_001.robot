@@ -1,9 +1,13 @@
 *** Settings ***
 Resource    ${CURDIR}/../resources/import.robot
-C:\Users\Chitsanucha.Su\Documents\GitHub\Open_Camp_Doppio_Group_2\resources\import.robot
-C:\Users\Chitsanucha.Su\Documents\GitHub\Open_Camp_Doppio_Group_2\testcases\TC_001.robot
+
 
 
 *** Test Cases ***  #Command 
 IKEA_003
-    Open web ikea
+    common.Open web ikea
+    Prod_main_features.Test search box & icon search      ${TC03.prodname}
+    Filter_page_features.Go to brown sofa and verify prod     ${TC03.prodname}     ${TC03.prodprize}   ${TC03.proddescription}
+
+IKEA_005
+    common.Open web ikea
