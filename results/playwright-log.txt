@@ -1,89 +1,35 @@
-{"level":30,"time":"2026-03-05T09:32:08.128Z","pid":80980,"hostname":"BCH25NB-021","msg":"Listening on 127.0.0.1:64668"}
-(node:80980) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2026-03-05T09:58:21.615Z","pid":58012,"hostname":"BCH25NB-021","msg":"Listening on 127.0.0.1:55620"}
+(node:58012) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2026-03-05T09:32:08.730Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-05T09:32:09.095Z","pid":80980,"hostname":"BCH25NB-021","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
-{"level":30,"time":"2026-03-05T09:32:09.096Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-05T09:32:09.096Z","pid":80980,"hostname":"BCH25NB-021","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-05T09:32:09.103Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-05T09:32:09.103Z","pid":80980,"hostname":"BCH25NB-021","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
-{"level":30,"time":"2026-03-05T09:32:09.103Z","pid":80980,"hostname":"BCH25NB-021","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b0af22dc37ea1216d56da7490d4fd170\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=77e65161-c7e9-4e87-bb1f-c828c8ab3249\"}"}
-{"level":30,"time":"2026-03-05T09:32:09.103Z","pid":80980,"hostname":"BCH25NB-021","msg":"Trace file: "}
-{"level":30,"time":"2026-03-05T09:32:09.113Z","pid":80980,"hostname":"BCH25NB-021","msg":"Setting default timeout for context context=4853d225-b5bb-4909-8da1-3c6244227dc3 to 10000"}
-{"level":30,"time":"2026-03-05T09:32:09.113Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-05T09:32:09.113Z","pid":80980,"hostname":"BCH25NB-021","msg":"Changed active context: context=4853d225-b5bb-4909-8da1-3c6244227dc3"}
-{"level":30,"time":"2026-03-05T09:32:09.120Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-05T09:32:09.120Z","pid":80980,"hostname":"BCH25NB-021","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b0af22dc37ea1216d56da7490d4fd170\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=4853d225-b5bb-4909-8da1-3c6244227dc3\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@64db80a98d53878d4d7fcba94e6fb285\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}},\"traceFile\":\"\"}],\"id\":\"browser=77e65161-c7e9-4e87-bb1f-c828c8ab3249\"}"}
-{"level":30,"time":"2026-03-05T09:32:09.462Z","pid":80980,"hostname":"BCH25NB-021","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-05T09:32:09.462Z","pid":80980,"hostname":"BCH25NB-021","msg":"Changed active page"}
-{"level":30,"time":"2026-03-05T09:32:15.062Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-05T09:32:15.073Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-05T09:32:15.074Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=input[id=\"ikea-search-input\"] in page."}
-{"level":30,"time":"2026-03-05T09:32:15.112Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-05T09:32:15.121Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T09:32:15.121Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=button[type=\"submit\"] in page."}
-{"level":30,"time":"2026-03-05T09:32:15.525Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T09:32:15.533Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T09:32:15.534Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=button[aria-controls=\"SEC_COLOR\"] in page."}
-{"level":30,"time":"2026-03-05T09:32:16.627Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T09:32:16.636Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T09:32:16.636Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=#plp-color-COLOR-10019 in page."}
-{"level":30,"time":"2026-03-05T09:32:16.929Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T09:32:16.935Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-05T09:32:16.936Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=#COLOR in page."}
-{"level":30,"time":"2026-03-05T09:32:16.942Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-05T09:32:16.946Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:16.947Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 in page."}
-{"level":30,"time":"2026-03-05T09:32:16.974Z","pid":80980,"hostname":"BCH25NB-021","msg":"Retrieved text for element css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 containing Option: STOCKHOLM 2025 / STOCKHOLM 2025, Table and 4 chairs with armrests, oak veneer/dark brown, 115 cm"}
-{"level":30,"time":"2026-03-05T09:32:16.974Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:16.989Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:16.989Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.010Z","pid":80980,"hostname":"BCH25NB-021","msg":"Retrieved text for element css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 containing Option: STOCKHOLM 2025 / STOCKHOLM 2025, Table and 4 chairs with armrests, oak veneer/dark brown, 115 cm"}
-{"level":30,"time":"2026-03-05T09:32:17.010Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.022Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.022Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.039Z","pid":80980,"hostname":"BCH25NB-021","msg":"Retrieved text for element css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 containing Option: STOCKHOLM 2025 / STOCKHOLM 2025, Table and 4 chairs with armrests, oak veneer/dark brown, 115 cm"}
-{"level":30,"time":"2026-03-05T09:32:17.039Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.053Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.053Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.127Z","pid":80980,"hostname":"BCH25NB-021","msg":"Retrieved text for element css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 containing Option: STOCKHOLM 2025, 2-seat sofa, Alhamn dark brown"}
-{"level":30,"time":"2026-03-05T09:32:17.127Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.139Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.139Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.162Z","pid":80980,"hostname":"BCH25NB-021","msg":"Retrieved text for element css=span:has-text(\"STOCKHOLM 2025\") >> nth= 41 containing STOCKHOLM 2025"}
-{"level":30,"time":"2026-03-05T09:32:17.162Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.169Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.169Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=span:has-text(\"Price 23790THB\") >> nth=0 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.190Z","pid":80980,"hostname":"BCH25NB-021","msg":"Retrieved text for element css=span:has-text(\"Price 23790THB\") >> nth=0 containing 23,790THB\nPrice 23790THB"}
-{"level":30,"time":"2026-03-05T09:32:17.190Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.196Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.196Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=.plp-price-module__description:has-text(\"Alhamn dark brown\") >> nth =1 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.210Z","pid":80980,"hostname":"BCH25NB-021","msg":"Retrieved text for element css=.plp-price-module__description:has-text(\"Alhamn dark brown\") >> nth =1 containing 2-seat sofa, Alhamn dark brown"}
-{"level":30,"time":"2026-03-05T09:32:17.210Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T09:32:17.217Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-05T09:32:17.218Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=#product-list button[aria-label*=\"STOCKHOLM 2025\"] >> nth= 21 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.225Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-05T09:32:17.229Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-05T09:32:17.229Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=#product-list button[aria-label*=\"STOCKHOLM 2025\"] >> nth= 20 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.233Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-05T09:32:17.239Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T09:32:17.240Z","pid":80980,"hostname":"BCH25NB-021","msg":"Strict mode is disabled, return first Locator: css=img[alt=\"Modern living room with dark brown stockholm sofa, colourful pillows, coffee tables, vibrant rug, and abstract artwork.\"] >> nth=1 in page."}
-{"level":30,"time":"2026-03-05T09:32:17.791Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T09:32:17.804Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:17.809Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:17.811Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:17.813Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:17.815Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:17.817Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:17.819Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:17.821Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:17.823Z","pid":80980,"hostname":"BCH25NB-021","msg":"Changed active context: context=4853d225-b5bb-4909-8da1-3c6244227dc3"}
-{"level":30,"time":"2026-03-05T09:32:17.823Z","pid":80980,"hostname":"BCH25NB-021","msg":"Changing current active page: page=17c7ba52-25c7-496a-80ab-00c075c60090"}
-{"level":30,"time":"2026-03-05T09:32:17.824Z","pid":80980,"hostname":"BCH25NB-021","msg":"Changed active page"}
-{"level":30,"time":"2026-03-05T09:32:17.828Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method closeContext"}
-{"level":30,"time":"2026-03-05T09:32:17.855Z","pid":80980,"hostname":"BCH25NB-021","msg":"Removed page=d8b84d31-ea48-4b1f-9725-39ff3ee7c35e from context=4853d225-b5bb-4909-8da1-3c6244227dc3 page stack"}
-{"level":30,"time":"2026-03-05T09:32:17.889Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method closeContext"}
-{"level":30,"time":"2026-03-05T09:32:18.024Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:18.025Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T09:32:19.079Z","pid":80980,"hostname":"BCH25NB-021","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-03-05T09:32:19.252Z","pid":80980,"hostname":"BCH25NB-021","msg":"End of node method closeAllBrowsers"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-03-05T09:58:21.928Z","pid":58012,"hostname":"BCH25NB-021","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:58:21.929Z","pid":58012,"hostname":"BCH25NB-021","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-03-05T09:58:21.937Z","pid":58012,"hostname":"BCH25NB-021","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:58:21.937Z","pid":58012,"hostname":"BCH25NB-021","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:58:22.840Z","pid":58012,"hostname":"BCH25NB-021","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T09:58:22.840Z","pid":58012,"hostname":"BCH25NB-021","msg":"End of node method closeAllBrowsers"}

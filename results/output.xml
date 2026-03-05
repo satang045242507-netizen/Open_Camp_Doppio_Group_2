@@ -1,230 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2026-03-05T16:32:07.205368" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2026-03-05T16:58:20.673611" rpa="false" schemaversion="5">
 <suite id="s1" name="Open Camp Doppio Group 2" source="C:\Users\Chitsanucha.Su\Documents\GitHub\Open_Camp_Doppio_Group_2">
 <suite id="s1-s1" name="Testcases" source="C:\Users\Chitsanucha.Su\Documents\GitHub\Open_Camp_Doppio_Group_2\testcases">
 <suite id="s1-s1-s1" name="TC 001" source="C:\Users\Chitsanucha.Su\Documents\GitHub\Open_Camp_Doppio_Group_2\testcases\TC_001.robot">
 <test id="s1-s1-s1-t1" name="IKEA_003" line="7">
-<kw name="Open web ikea" owner="common">
-<kw name="New Browser" owner="Browser">
-<msg time="2026-03-05T16:32:07.482843" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Chitsanucha.Su\\Documents\\GitHub\\Open_Camp_Doppio_Group_2\\results\\browser\\traces\\temp\\e061dc30-6869-4104-9e73-0a12340133a2"}</msg>
-<msg time="2026-03-05T16:32:07.559173" level="INFO">Starting Browser process C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:64668</msg>
-<msg time="2026-03-05T16:32:09.098084" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Chitsanucha.Su\\Documents\\GitHub\\Open_Camp_Doppio_Group_2\\results\\browser\\traces\\temp\\e061dc30-6869-4104-9e73-0a12340133a2"}</msg>
-<arg>Chromium</arg>
-<arg>${False}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-03-05T16:32:07.481745" elapsed="1.616853"/>
-</kw>
-<kw name="New Context" owner="Browser">
-<msg time="2026-03-05T16:32:09.101297" level="INFO">{
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "forcedColors": "none",
-  "ignoreHTTPSErrors": false,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "reducedMotion": "no-preference",
-  "serviceWorkers": "allow",
-  "viewport": {
-    "height": 720,
-    "width": 1280
-  }
-}</msg>
-<msg time="2026-03-05T16:32:09.115966" level="INFO">Successfully created context. </msg>
-<msg time="2026-03-05T16:32:09.116595" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2026-03-05T16:32:09.098925" elapsed="0.017988"/>
-</kw>
-<kw name="New Page" owner="Browser">
-<msg time="2026-03-05T16:32:15.065195" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th</msg>
-<arg>https://www.ikea.com/th</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Open a new Page.</doc>
-<status status="PASS" start="2026-03-05T16:32:09.117258" elapsed="5.948724"/>
-</kw>
-<status status="PASS" start="2026-03-05T16:32:07.481028" elapsed="7.585446"/>
+<kw name="common.Open web ikea">
+<msg time="2026-03-05T16:58:20.961241" level="FAIL">No keyword with name 'common.Open web ikea' found.</msg>
+<status status="FAIL" start="2026-03-05T16:58:20.959396" elapsed="0.005027">No keyword with name 'common.Open web ikea' found.</status>
 </kw>
 <kw name="Test search box &amp; icon search" owner="Prod_main_features">
-<kw name="Test search box" owner="Prod_main_page">
-<kw name="Fill Text" owner="Browser">
-<msg time="2026-03-05T16:32:15.071547" level="INFO">Fills the text 'STOCKHOLM 2025' in the given field.</msg>
-<arg>${Prod_main_locator_searhbox_txt}</arg>
-<arg>${prodname}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:32:15.070713" elapsed="0.044428"/>
-</kw>
-<arg>${prodname}</arg>
-<status status="PASS" start="2026-03-05T16:32:15.069366" elapsed="0.046178"/>
-</kw>
-<kw name="Test click icon search" owner="Prod_main_page">
-<kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:32:15.118206" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
-<arg>${Prod_main_locator_Search_btn}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:32:15.117068" elapsed="0.410739"/>
-</kw>
-<status status="PASS" start="2026-03-05T16:32:15.115936" elapsed="0.412163"/>
-</kw>
 <arg>${TC03.prodname}</arg>
-<status status="PASS" start="2026-03-05T16:32:15.067782" elapsed="0.460450"/>
+<status status="NOT RUN" start="2026-03-05T16:58:20.966005" elapsed="0.000335"/>
 </kw>
 <kw name="Go to brown sofa and verify prod" owner="Filter_page_features">
-<kw name="Go to expand color tab" owner="Filter_page">
-<kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:32:15.532619" level="INFO">Clicks the element 'css=button[aria-controls="SEC_COLOR"]'.</msg>
-<arg>${Filter_page_locator_color_btn}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:32:15.532143" elapsed="1.099024"/>
-</kw>
-<status status="PASS" start="2026-03-05T16:32:15.531444" elapsed="1.100144"/>
-</kw>
-<kw name="Click color brown" owner="Filter_page">
-<kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:32:16.634357" level="INFO">Clicks the element 'css=#plp-color-COLOR-10019'.</msg>
-<arg>${Filter_page_locator_color_Brown_txt}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:32:16.633279" elapsed="0.297731"/>
-</kw>
-<status status="PASS" start="2026-03-05T16:32:16.631955" elapsed="0.299496"/>
-</kw>
-<kw name="Verify filter bar is visible" owner="Filter_page">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-05T16:32:16.943585" level="INFO">Waited for Element with selector css=#COLOR at state visible</msg>
-<arg>${Filter_page_locator_color_lbl}</arg>
-<arg>visible</arg>
-<arg>timeout=5 s</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-05T16:32:16.932989" elapsed="0.010891"/>
-</kw>
-<status status="PASS" start="2026-03-05T16:32:16.931944" elapsed="0.012102"/>
-</kw>
-<kw name="Verify Prodname is visible corectly" owner="Filter_page">
-<kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T16:32:17.164164" level="INFO">Text: 'STOCKHOLM 2025'</msg>
-<arg>${Filter_page_locator_Prodname_txt}</arg>
-<arg>==</arg>
-<arg>${prodname}</arg>
-<arg>timeout=5s</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:32:16.944928" elapsed="0.219928"/>
-</kw>
-<arg>${prodname}</arg>
-<status status="PASS" start="2026-03-05T16:32:16.944220" elapsed="0.220974"/>
-</kw>
-<kw name="verify prod prize in list page" owner="Filter_page">
-<kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T16:32:17.192133" level="INFO">Text: '23,790THB\nPrice 23790THB'</msg>
-<arg>${Filter_page_locator_Prodprize_txt}</arg>
-<arg>contains</arg>
-<arg>${prodprize}</arg>
-<arg>timeout=5s</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:32:17.166691" elapsed="0.025818"/>
-</kw>
-<arg>${prodprize}</arg>
-<status status="PASS" start="2026-03-05T16:32:17.165591" elapsed="0.027245"/>
-</kw>
-<kw name="verify prod describtion in list page" owner="Filter_page">
-<kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T16:32:17.212326" level="INFO">Text: '2-seat sofa, Alhamn dark brown'</msg>
-<arg>${Filter_page_locator_Proddes_txt}</arg>
-<arg>contains</arg>
-<arg>${proddescription}</arg>
-<arg>timeout=5s</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:32:17.193793" elapsed="0.019294"/>
-</kw>
-<arg>${proddescription}</arg>
-<status status="PASS" start="2026-03-05T16:32:17.193154" elapsed="0.020580"/>
-</kw>
-<kw name="Verify fav button display" owner="Filter_page">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-05T16:32:17.226950" level="INFO">Waited for Element with selector css=#product-list button[aria-label*="STOCKHOLM 2025"] &gt;&gt; nth= 21 at state visible</msg>
-<arg>${Filter_page_locator_fav_btn}</arg>
-<arg>visible</arg>
-<arg>timeout=5 s</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-05T16:32:17.215231" elapsed="0.012402"/>
-</kw>
-<status status="PASS" start="2026-03-05T16:32:17.214065" elapsed="0.013738"/>
-</kw>
-<kw name="Verify cart button badge display" owner="Filter_page">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-05T16:32:17.234662" level="INFO">Waited for Element with selector css=#product-list button[aria-label*="STOCKHOLM 2025"] &gt;&gt; nth= 20 at state visible</msg>
-<arg>${Filter_page_locator_cart_txt}</arg>
-<arg>visible</arg>
-<arg>timeout=5 s</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-05T16:32:17.228515" elapsed="0.006790"/>
-</kw>
-<status status="PASS" start="2026-03-05T16:32:17.227974" elapsed="0.007655"/>
-</kw>
-<kw name="Click band of prod" owner="Filter_page">
-<kw name="Click" owner="Browser">
-<msg time="2026-03-05T16:32:17.238202" level="INFO">Clicks the element 'css=img[alt="Modern living room with dark brown stockholm sofa, colourful pillows, coffee tables, vibrant rug, and abstract artwork."] &gt;&gt; nth=1'.</msg>
-<arg>${Filter_page_locator_brand_prod_img}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T16:32:17.237014" elapsed="0.555975"/>
-</kw>
-<status status="PASS" start="2026-03-05T16:32:17.235993" elapsed="0.557193"/>
-</kw>
 <arg>${TC03.prodname}</arg>
 <arg>${TC03.prodprize}</arg>
 <arg>${TC03.proddescription}</arg>
-<status status="PASS" start="2026-03-05T16:32:15.528862" elapsed="2.264402"/>
+<status status="NOT RUN" start="2026-03-05T16:58:20.966632" elapsed="0.000236"/>
 </kw>
-<msg time="2026-03-05T16:32:17.818604" level="INFO">Switching context to context=4853d225-b5bb-4909-8da1-3c6244227dc3 in CURRENT</msg>
-<msg time="2026-03-05T16:32:17.827311" level="INFO">Successfully changed active context: context=4853d225-b5bb-4909-8da1-3c6244227dc3</msg>
-<msg time="2026-03-05T16:32:17.890517" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2026-03-05T16:32:07.476332" elapsed="10.317412"/>
+<msg time="2026-03-05T16:58:21.057627" level="INFO">Starting Browser process C:\Users\Chitsanucha.Su\Documents\My project Automate test\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:55620</msg>
+<status status="FAIL" start="2026-03-05T16:58:20.954435" elapsed="0.012717">No keyword with name 'common.Open web ikea' found.</status>
 </test>
-<status status="PASS" start="2026-03-05T16:32:07.246951" elapsed="10.646833"/>
+<status status="FAIL" start="2026-03-05T16:58:20.709334" elapsed="1.222310"/>
 </suite>
-<status status="PASS" start="2026-03-05T16:32:07.241900" elapsed="10.786252"/>
+<status status="FAIL" start="2026-03-05T16:58:20.705793" elapsed="1.233280"/>
 </suite>
-<status status="PASS" start="2026-03-05T16:32:07.209279" elapsed="10.823275"/>
+<status status="FAIL" start="2026-03-05T16:58:20.678076" elapsed="1.264737"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Open Camp Doppio Group 2" id="s1" pass="1" fail="0" skip="0">Open Camp Doppio Group 2</stat>
-<stat name="Testcases" id="s1-s1" pass="1" fail="0" skip="0">Open Camp Doppio Group 2.Testcases</stat>
-<stat name="TC 001" id="s1-s1-s1" pass="1" fail="0" skip="0">Open Camp Doppio Group 2.Testcases.TC 001</stat>
+<stat name="Open Camp Doppio Group 2" id="s1" pass="0" fail="1" skip="0">Open Camp Doppio Group 2</stat>
+<stat name="Testcases" id="s1-s1" pass="0" fail="1" skip="0">Open Camp Doppio Group 2.Testcases</stat>
+<stat name="TC 001" id="s1-s1-s1" pass="0" fail="1" skip="0">Open Camp Doppio Group 2.Testcases.TC 001</stat>
 </suite>
 </statistics>
 <errors>
+<msg time="2026-03-05T16:58:20.925801" level="WARN">Imported resource file 'C:\Users\Chitsanucha.Su\Documents\GitHub\Open_Camp_Doppio_Group_2\keywords\common\common.robot' is empty.</msg>
+<msg time="2026-03-05T16:58:20.933206" level="ERROR">Error in file 'C:\Users\Chitsanucha.Su\Documents\GitHub\Open_Camp_Doppio_Group_2\resources\import.robot' on line 15: Resource file 'C:\Users\Chitsanucha.Su\Documents\GitHub\Open_Camp_Doppio_Group_2\keywords\page\Prod_main_page.robot' does not exist.</msg>
 </errors>
 </robot>
